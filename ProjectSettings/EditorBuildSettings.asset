@@ -6,5 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/ribbit.unity
+    path: Assets/Scenes/MainMenu.unity
+    guid: ac9f87c08b40acf47a5cdc56c6cfa0ef
+  - enabled: 1
+    path: Assets/Scenes/ribbitTest.unity
     guid: e67cd24f38395474faf2f5c027352b76
