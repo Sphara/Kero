@@ -54,7 +54,7 @@ public class Player : MonoBehaviour {
 		if (Input.GetAxisRaw("Fire1") > 0) {
             RaycastHit2D hit;
 
-            if (hit = controller.ManualRayCast(InteractionLayer, -faceDirection, 0, 2.0f)) // Change length
+            if (hit = controller.ManualRayCast(InteractionLayer, -faceDirection, 0, 2.0f)) // Change length maybe ?
             {
                 InteractionScript interaction = hit.transform.gameObject.GetComponent<InteractionScript>();
 

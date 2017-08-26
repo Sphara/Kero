@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class InteractionScript : MonoBehaviour, IInteractable {
 
-    public void Interact(GameObject InteractionAuthor)
+    public virtual void Interact(GameObject InteractionAuthor)
     {
         Debug.Log("Korambu a faim");
     }
