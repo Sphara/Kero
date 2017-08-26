@@ -21,12 +21,14 @@ public class CollisionController : Controller {
 		CollisionEventFunction buff = BuffCollision;
 		CollisionEventFunction player = PlayerCollision;
 
-		CollisionHandleDic = new Dictionary<int, CollisionEventFunction> ();
-		CollisionHandleDic.Add (LayerMask.NameToLayer("CollisionLayer"), obstacle);
-		CollisionHandleDic.Add (LayerMask.NameToLayer("EnemyLayer"), enemy);
-		CollisionHandleDic.Add (LayerMask.NameToLayer("BuffLayer"), buff);
-		CollisionHandleDic.Add (LayerMask.NameToLayer("P-layer"), player);
-	}
+        CollisionHandleDic = new Dictionary<int, CollisionEventFunction>
+        {
+            { LayerMask.NameToLayer("CollisionLayer"), obstacle },
+            { LayerMask.NameToLayer("EnemyLayer"), enemy },
+            { LayerMask.NameToLayer("BuffLayer"), buff },
+            { LayerMask.NameToLayer("P-layer"), player }
+        };
+    }
 
 	public override void Move (Vector3 velocity, bool standingOnPlatform = false) {
 		UpdateRaycastOrigins ();

@@ -17,6 +17,7 @@ public class Player : MonoBehaviour {
     float faceDirection = 1;
 
     public LayerMask InteractionLayer;
+    public PlayerState playerState = PlayerState.IDLE;
 
 	void Start () 
 	{
@@ -64,18 +65,27 @@ public class Player : MonoBehaviour {
 		float TargetHorizontalVelocity = input.x * stats.moveSpeed;
 
 		velocity.x = Mathf.SmoothDamp(velocity.x, TargetHorizontalVelocity, ref velocityXSmoothing, controller.collisions.below ? stats.groundedAcceleration : stats.airborneAcceleration);
-		velocity.y += gravity * Time.deltaTime;
+
+        // Before gravity, otherwise we're always moving
+        if (Mathf.Abs(velocity.x) < 0.1f && Mathf.Abs(velocity.y) < 0.1f)
+            playerState = PlayerState.IDLE;
+        else if (controller.collisions.below)
+            playerState = PlayerState.MOVING;
+        else
+            playerState = PlayerState.JUMPING;
+
+        velocity.y += gravity * Time.deltaTime;
 
 	}
 
 	void FixedUpdate () {
 
-		if (controller.collisions.below && (Time.timeSinceLevelLoad - timeJumpWasCalled) < 0.1f) {
+        if (controller.collisions.below && (Time.timeSinceLevelLoad - timeJumpWasCalled) < 0.1f) {
 			velocity.y = jumpVelocity;
 			timeJumpWasCalled = -2f;
 		}
 
-		controller.Move (velocity * Time.deltaTime);
-	}
+        controller.Move (velocity * Time.deltaTime);
+    }
 
 }

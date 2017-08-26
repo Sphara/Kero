@@ -2,3 +2,10 @@
 	VerticalPlatform,
 	HorizontalPlatform
 };
+
+public enum PlayerState
+{
+    IDLE,
+    MOVING,
+    JUMPING
+};
