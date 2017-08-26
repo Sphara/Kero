@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: d051e077b567aa947825f735e514b796
+timeCreated: 1503768834
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera
+    100002: //RootNode
+    100004: LegL1
+    100006: LegL2
+    100008: LegR1
+    100010: LegR2
+    100012: LegRight
+    100014: RightLeg
+    100016: TalonLB1
+    100018: TalonLB2
+    100020: TalonLB2_end
+    100022: TalonLL1
+    100024: TalonLL2
+    100026: TalonLL3
+    100028: TalonLL3_end
+    100030: TalonLM1
+    100032: TalonLM2
+    100034: TalonLM3
+    100036: TalonLM3_end
+    100038: TalonLR1
+    100040: TalonLR2
+    100042: TalonLR3
+    100044: TalonLR3_end
+    100046: TalonRB1
+    100048: TalonRB2
+    100050: TalonRB2_end
+    100052: TalonRL1
+    100054: TalonRL2
+    100056: TalonRL3
+    100058: TalonRL3_end
+    100060: TalonRM1
+    100062: TalonRM2
+    100064: TalonRM3
+    100066: TalonRM3_end
+    100068: TalonRR1
+    100070: TalonRR2
+    100072: TalonRR3
+    100074: TalonRR3_end
+    400000: Camera
+    400002: //RootNode
+    400004: LegL1
+    400006: LegL2
+    400008: LegR1
+    400010: LegR2
+    400012: LegRight
+    400014: RightLeg
+    400016: TalonLB1
+    400018: TalonLB2
+    400020: TalonLB2_end
+    400022: TalonLL1
+    400024: TalonLL2
+    400026: TalonLL3
+    400028: TalonLL3_end
+    400030: TalonLM1
+    400032: TalonLM2
+    400034: TalonLM3
+    400036: TalonLM3_end
+    400038: TalonLR1
+    400040: TalonLR2
+    400042: TalonLR3
+    400044: TalonLR3_end
+    400046: TalonRB1
+    400048: TalonRB2
+    400050: TalonRB2_end
+    400052: TalonRL1
+    400054: TalonRL2
+    400056: TalonRL3
+    400058: TalonRL3_end
+    400060: TalonRM1
+    400062: TalonRM2
+    400064: TalonRM3
+    400066: TalonRM3_end
+    400068: TalonRR1
+    400070: TalonRR2
+    400072: TalonRR3
+    400074: TalonRR3_end
+    4300000: RightLeg
+    7400000: WalkRight.001
+    7400002: LegRight|WalkRight.001
+    9500000: //RootNode
+    13700000: RightLeg
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: WalkRight.001
+      takeName: WalkRight.001
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: LegRight
+        weight: 1
+      - path: LegRight/LegL1
+        weight: 1
+      - path: LegRight/LegL1/LegL2
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLB1
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLB1/TalonLB2
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLB1/TalonLB2/TalonLB2_end
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLL1
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLL1/TalonLL2
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLL1/TalonLL2/TalonLL3
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLL1/TalonLL2/TalonLL3/TalonLL3_end
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLM1
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLM1/TalonLM2
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLM1/TalonLM2/TalonLM3
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLM1/TalonLM2/TalonLM3/TalonLM3_end
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLR1
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLR1/TalonLR2
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLR1/TalonLR2/TalonLR3
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLR1/TalonLR2/TalonLR3/TalonLR3_end
+        weight: 1
+      - path: LegRight/LegR1
+        weight: 1
+      - path: LegRight/LegR1/LegR2
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRB1
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRB1/TalonRB2
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRB1/TalonRB2/TalonRB2_end
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRL1
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRL1/TalonRL2
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRL1/TalonRL2/TalonRL3
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRL1/TalonRL2/TalonRL3/TalonRL3_end
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRM1
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRM1/TalonRM2
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRM1/TalonRM2/TalonRM3
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRM1/TalonRM2/TalonRM3/TalonRM3_end
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRR1
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRR1/TalonRR2
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRR1/TalonRR2/TalonRR3
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRR1/TalonRR2/TalonRR3/TalonRR3_end
+        weight: 1
+      - path: RightLeg
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: LegRight|WalkRight.001
+      takeName: LegRight|WalkRight.001
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: LegRight
+        weight: 1
+      - path: LegRight/LegL1
+        weight: 1
+      - path: LegRight/LegL1/LegL2
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLB1
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLB1/TalonLB2
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLB1/TalonLB2/TalonLB2_end
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLL1
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLL1/TalonLL2
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLL1/TalonLL2/TalonLL3
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLL1/TalonLL2/TalonLL3/TalonLL3_end
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLM1
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLM1/TalonLM2
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLM1/TalonLM2/TalonLM3
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLM1/TalonLM2/TalonLM3/TalonLM3_end
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLR1
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLR1/TalonLR2
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLR1/TalonLR2/TalonLR3
+        weight: 1
+      - path: LegRight/LegL1/LegL2/TalonLR1/TalonLR2/TalonLR3/TalonLR3_end
+        weight: 1
+      - path: LegRight/LegR1
+        weight: 1
+      - path: LegRight/LegR1/LegR2
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRB1
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRB1/TalonRB2
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRB1/TalonRB2/TalonRB2_end
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRL1
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRL1/TalonRL2
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRL1/TalonRL2/TalonRL3
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRL1/TalonRL2/TalonRL3/TalonRL3_end
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRM1
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRM1/TalonRM2
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRM1/TalonRM2/TalonRM3
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRM1/TalonRM2/TalonRM3/TalonRM3_end
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRR1
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRR1/TalonRR2
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRR1/TalonRR2/TalonRR3
+        weight: 1
+      - path: LegRight/LegR1/LegR2/TalonRR1/TalonRR2/TalonRR3/TalonRR3_end
+        weight: 1
+      - path: RightLeg
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
