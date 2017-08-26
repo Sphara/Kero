@@ -194,36 +194,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 861484d3678c60e45a688c2de6992b82, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &628813506 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1077887983918828, guid: 3f2a37f4ba4f4c047a33cf88d87ee425,
-    type: 2}
-  m_PrefabInternal: {fileID: 1180811527}
---- !u!61 &628813508
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 628813506}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &628813510 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4827425915087276, guid: 3f2a37f4ba4f4c047a33cf88d87ee425,
@@ -332,7 +302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xOffset: 0
   yOffset: 0
-  followSpeed: 8
+  followSpeed: 15
   myObjectToFollow: {fileID: 2041639913}
 --- !u!1001 &1164264740
 Prefab:

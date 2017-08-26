@@ -14,7 +14,10 @@ public class Player : MonoBehaviour {
 	float timeJumpWasCalled = -2f;
 
 	Vector3 velocity;
-	
+    float faceDirection = 1;
+
+    public LayerMask InteractionLayer;
+
 	void Start () 
 	{
 		stats = new Characteristics ();
@@ -36,15 +39,27 @@ public class Player : MonoBehaviour {
 
 		Vector2 input = new Vector2 (Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
-		if (Input.GetAxisRaw("Jump") > 0) {
+        if (input.x == -1)
+            faceDirection = 1;
+        else if (input.x == 1)
+            faceDirection = -1;
+
+        if (Input.GetAxisRaw("Jump") > 0) {
 			timeJumpWasCalled = Time.timeSinceLevelLoad;
 		}
 
 		/* Interactions ! */
 
-		if (Input.GetKeyDown (KeyCode.E)) {
+		if (Input.GetAxisRaw("Fire1") > 0) {
+            RaycastHit2D hit;
 
-		}
+            if (hit = controller.ManualRayCast(InteractionLayer, -faceDirection, 0, 2.0f)) // Change length
+            {
+                InteractionScript interaction = hit.transform.gameObject.GetComponent<InteractionScript>();
+
+                interaction.Interact(gameObject);
+            }
+        }
 
 		float TargetHorizontalVelocity = input.x * stats.moveSpeed;
 
