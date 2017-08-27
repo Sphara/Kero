@@ -5,7 +5,8 @@
 
 public enum PlayerState
 {
-    IDLE,
-    MOVING,
-    JUMPING
+    IDLE = 0,
+    MOVING = 1,
+    JUMPING = 2,
+	DOWN = 3
 };
