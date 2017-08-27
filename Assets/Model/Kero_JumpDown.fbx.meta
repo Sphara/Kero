@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: 9459347c3f1cba246ad2890870531528
+timeCreated: 1503827220
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: BL_Foot
+    100002: BR_Foot
+    100004: Crane
+    100006: Head
+    100008: Hip
+    100010: hip
+    100012: ikHandle1
+    100014: ikHandle2
+    100016: ikHandle3
+    100018: ikHandle4
+    100020: ikHandle5
+    100022: Jaw
+    100024: Kero
+    100026: //RootNode
+    100028: L_collar
+    100030: L_elbow
+    100032: L_foot
+    100034: L_hand
+    100036: L_knew
+    100038: L_tigh
+    100040: L_tiptoe
+    100042: L_toe
+    100044: L_toe 1
+    100046: L_wrist
+    100048: L_xtra
+    100050: LF_Foot
+    100052: Master
+    100054: Mouth
+    100056: mouth
+    100058: Neck
+    100060: neck
+    100062: Nose
+    100064: pSphere3
+    100066: R_collar
+    100068: R_elbow
+    100070: R_foot
+    100072: R_hand
+    100074: R_knew
+    100076: R_tigh
+    100078: R_tiptoe
+    100080: R_toe
+    100082: R_toe 1
+    100084: R_wrist
+    100086: R_xtra
+    100088: Random
+    100090: RF_Foot
+    100092: Root
+    100094: root
+    100096: Spine1
+    100098: spine1
+    400000: BL_Foot
+    400002: BR_Foot
+    400004: Crane
+    400006: Head
+    400008: Hip
+    400010: hip
+    400012: ikHandle1
+    400014: ikHandle2
+    400016: ikHandle3
+    400018: ikHandle4
+    400020: ikHandle5
+    400022: Jaw
+    400024: Kero
+    400026: //RootNode
+    400028: L_collar
+    400030: L_elbow
+    400032: L_foot
+    400034: L_hand
+    400036: L_knew
+    400038: L_tigh
+    400040: L_tiptoe
+    400042: L_toe
+    400044: L_toe 1
+    400046: L_wrist
+    400048: L_xtra
+    400050: LF_Foot
+    400052: Master
+    400054: Mouth
+    400056: mouth
+    400058: Neck
+    400060: neck
+    400062: Nose
+    400064: pSphere3
+    400066: R_collar
+    400068: R_elbow
+    400070: R_foot
+    400072: R_hand
+    400074: R_knew
+    400076: R_tigh
+    400078: R_tiptoe
+    400080: R_toe
+    400082: R_toe 1
+    400084: R_wrist
+    400086: R_xtra
+    400088: Random
+    400090: RF_Foot
+    400092: Root
+    400094: root
+    400096: Spine1
+    400098: spine1
+    4300000: pSphere3
+    7400000: JumpDown
+    9500000: //RootNode
+    13700000: pSphere3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: JumpDown
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -6,6 +6,11 @@ public class Death : MonoBehaviour {
 
     public Canvas DeathMenu;
 
+    private void Awake()
+    {
+        Time.timeScale = 1.0f;
+    }
+
     public void Die()
     {
         DeathMenu.gameObject.SetActive(true);

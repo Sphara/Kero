@@ -1,0 +1,182 @@
+fileFormatVersion: 2
+guid: 2d6205c92480d6b47a948965f99b9091
+timeCreated: 1503827217
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Crane
+    100002: hip
+    100004: Jaw
+    100006: Kero
+    100008: //RootNode
+    100010: L_collar
+    100012: L_elbow
+    100014: L_foot
+    100016: L_hand
+    100018: L_knew
+    100020: L_tigh
+    100022: L_tiptoe
+    100024: L_toe
+    100026: L_toe 1
+    100028: L_wrist
+    100030: L_xtra
+    100032: Mouth
+    100034: neck
+    100036: Nose
+    100038: pSphere3
+    100040: R_collar
+    100042: R_elbow
+    100044: R_foot
+    100046: R_hand
+    100048: R_knew
+    100050: R_tigh
+    100052: R_tiptoe
+    100054: R_toe
+    100056: R_toe 1
+    100058: R_wrist
+    100060: R_xtra
+    100062: Random
+    100064: root
+    100066: spine1
+    400000: Crane
+    400002: hip
+    400004: Jaw
+    400006: Kero
+    400008: //RootNode
+    400010: L_collar
+    400012: L_elbow
+    400014: L_foot
+    400016: L_hand
+    400018: L_knew
+    400020: L_tigh
+    400022: L_tiptoe
+    400024: L_toe
+    400026: L_toe 1
+    400028: L_wrist
+    400030: L_xtra
+    400032: Mouth
+    400034: neck
+    400036: Nose
+    400038: pSphere3
+    400040: R_collar
+    400042: R_elbow
+    400044: R_foot
+    400046: R_hand
+    400048: R_knew
+    400050: R_tigh
+    400052: R_tiptoe
+    400054: R_toe
+    400056: R_toe 1
+    400058: R_wrist
+    400060: R_xtra
+    400062: Random
+    400064: root
+    400066: spine1
+    4300000: pSphere3
+    7400000: Walk
+    9500000: //RootNode
+    13700000: pSphere3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
