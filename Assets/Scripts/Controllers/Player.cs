@@ -16,7 +16,8 @@ public class Player : MonoBehaviour {
 	Vector3 velocity;
     float faceDirection = 1;
 
-    public LayerMask InteractionLayer;
+	public LayerMask InteractionLayer;
+	public LayerMask EnemyLayer;
     public PlayerState playerState = PlayerState.IDLE;
 
 	void Start () 
@@ -51,8 +52,8 @@ public class Player : MonoBehaviour {
 
 		/* Interactions ! */
 
+		RaycastHit2D hit;
 		if (Input.GetAxisRaw("Fire1") > 0) {
-            RaycastHit2D hit;
 
             if (hit = controller.ManualRayCast(InteractionLayer, -faceDirection, 0, 2.0f)) // Change length maybe ?
             {
@@ -61,6 +62,13 @@ public class Player : MonoBehaviour {
                 interaction.Interact(gameObject);
             }
         }
+
+		if (hit = controller.ManualRayCast(EnemyLayer, -faceDirection, 0, 2.0f)) // Change length maybe ?
+		{
+			InteractionScript interaction = hit.transform.gameObject.GetComponent<InteractionScript>();
+
+			interaction.Interact(gameObject);
+		}
 
 		float TargetHorizontalVelocity = input.x * stats.moveSpeed;
 
