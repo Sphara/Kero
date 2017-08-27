@@ -20,12 +20,15 @@ public class Player : MonoBehaviour {
 	public LayerMask EnemyLayer;
     public PlayerState playerState = PlayerState.IDLE;
 
+	private Animator anim;
+
 	void Start () 
 	{
 		stats = new Characteristics ();
 		controller = GetComponent<Controller> ();
 		gravity = -(2 * stats.jumpHeight) / Mathf.Pow (stats.timeToJumpApex, 2);
 		jumpVelocity = Mathf.Abs (gravity) * stats.timeToJumpApex;
+		anim = transform.GetChild(0).gameObject.GetComponent<Animator>();
 	}
 
 	void Update ()
@@ -75,13 +78,15 @@ public class Player : MonoBehaviour {
 		velocity.x = Mathf.SmoothDamp(velocity.x, TargetHorizontalVelocity, ref velocityXSmoothing, controller.collisions.below ? stats.groundedAcceleration : stats.airborneAcceleration);
 
         // Before gravity, otherwise we're always moving
-        if (Mathf.Abs(velocity.x) < 0.1f && Mathf.Abs(velocity.y) < 0.1f)
-            playerState = PlayerState.IDLE;
-        else if (controller.collisions.below)
-            playerState = PlayerState.MOVING;
-        else
-            playerState = PlayerState.JUMPING;
-
+		if (Mathf.Abs(velocity.x) < 0.1f && Mathf.Abs(velocity.y) < 0.1f)
+			playerState = PlayerState.IDLE;
+		else if (controller.collisions.below)
+			playerState = PlayerState.MOVING;
+		else if (velocity.y > 0.1f)
+			playerState = PlayerState.JUMPING;
+		else
+			playerState = PlayerState.DOWN;
+		anim.SetInteger("State", (int)playerState);
         velocity.y += gravity * Time.deltaTime;
 
 	}
