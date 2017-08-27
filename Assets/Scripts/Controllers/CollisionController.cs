@@ -96,7 +96,6 @@ public class CollisionController : Controller {
 	}
 
 	protected virtual void EnemyCollision(RaycastHit2D hit, ref Vector3 velocity, ref float Direction, ref float rayLength, bool isVertical) {
-
 	}
 
 	protected virtual void BuffCollision(RaycastHit2D hit, ref Vector3 velocity, ref float Direction, ref float rayLength, bool isVertical) {
