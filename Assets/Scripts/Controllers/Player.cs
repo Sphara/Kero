@@ -4,6 +4,7 @@ using System.Collections;
 [RequireComponent (typeof(Controller))]
 public class Player : MonoBehaviour {
 
+    Renderer renderer;
 	Controller controller;
 	public Characteristics stats;
 
@@ -25,6 +26,7 @@ public class Player : MonoBehaviour {
 	void Start () 
 	{
 		stats = new Characteristics ();
+        renderer = GetComponent<MeshRenderer>();
 		controller = GetComponent<Controller> ();
 		gravity = -(2 * stats.jumpHeight) / Mathf.Pow (stats.timeToJumpApex, 2);
 		jumpVelocity = Mathf.Abs (gravity) * stats.timeToJumpApex;
