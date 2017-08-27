@@ -12,6 +12,56 @@ ModelImporter:
     100008: LeftLid
     100010: RightEye
     100012: RightLid
+    100014: BL_Foot
+    100016: BR_Foot
+    100018: Crane
+    100020: Eyes
+    100022: Head
+    100024: Hip
+    100026: hip
+    100028: ikHandle1
+    100030: ikHandle2
+    100032: ikHandle3
+    100034: ikHandle4
+    100036: Jaw
+    100038: Kero
+    100040: L_collar
+    100042: L_elbow
+    100044: L_foot
+    100046: L_hand
+    100048: L_knew
+    100050: L_Lid
+    100052: L_tigh
+    100054: L_tiptoe
+    100056: L_toe
+    100058: L_toe 1
+    100060: L_wrist
+    100062: L_xtra
+    100064: LF_Foot
+    100066: Master
+    100068: Mouth
+    100070: Mouth 1
+    100072: Neck
+    100074: neck
+    100076: Nose
+    100078: R_collar
+    100080: R_elbow
+    100082: R_foot
+    100084: R_hand
+    100086: R_knew
+    100088: R_Lid
+    100090: R_tigh
+    100092: R_tiptoe
+    100094: R_toe
+    100096: R_toe 1
+    100098: R_wrist
+    100100: R_xtra
+    100102: Random
+    100104: RF_Foot
+    100106: Root
+    100108: root
+    100110: Spine1
+    100112: spine1
     400000: body
     400002: eyes
     400004: //RootNode
@@ -19,6 +69,56 @@ ModelImporter:
     400008: LeftLid
     400010: RightEye
     400012: RightLid
+    400014: BL_Foot
+    400016: BR_Foot
+    400018: Crane
+    400020: Eyes
+    400022: Head
+    400024: Hip
+    400026: hip
+    400028: ikHandle1
+    400030: ikHandle2
+    400032: ikHandle3
+    400034: ikHandle4
+    400036: Jaw
+    400038: Kero
+    400040: L_collar
+    400042: L_elbow
+    400044: L_foot
+    400046: L_hand
+    400048: L_knew
+    400050: L_Lid
+    400052: L_tigh
+    400054: L_tiptoe
+    400056: L_toe
+    400058: L_toe 1
+    400060: L_wrist
+    400062: L_xtra
+    400064: LF_Foot
+    400066: Master
+    400068: Mouth
+    400070: Mouth 1
+    400072: Neck
+    400074: neck
+    400076: Nose
+    400078: R_collar
+    400080: R_elbow
+    400082: R_foot
+    400084: R_hand
+    400086: R_knew
+    400088: R_Lid
+    400090: R_tigh
+    400092: R_tiptoe
+    400094: R_toe
+    400096: R_toe 1
+    400098: R_wrist
+    400100: R_xtra
+    400102: Random
+    400104: RF_Foot
+    400106: Root
+    400108: root
+    400110: Spine1
+    400112: spine1
     2300000: body
     2300002: LeftEye
     2300004: LeftLid
@@ -34,7 +134,9 @@ ModelImporter:
     4300004: LeftEye
     4300006: RightLid
     4300008: LeftLid
+    7400000: Take 001
     9500000: //RootNode
+    13700000: body
   materials:
     importMaterials: 1
     materialName: 0
