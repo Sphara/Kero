@@ -12,7 +12,11 @@ public class CameraController : MonoBehaviour {
 	private Vector3 tempFollowedObjectWithOffset;
 
 	void FixedUpdate () {
-		tempFollowedObjectWithOffset = new Vector3(myObjectToFollow.position.x + xOffset, myObjectToFollow.position.y + yOffset, transform.position.z);
+		if (myObjectToFollow.position.x > 0) {
+			tempFollowedObjectWithOffset = new Vector3 (myObjectToFollow.position.x + xOffset, 0, transform.position.z);
+		} else {
+			tempFollowedObjectWithOffset = new Vector3 (0, 0, transform.position.z);
+		}
 		transform.position = Vector3.Lerp(transform.position, tempFollowedObjectWithOffset, followSpeed * Time.deltaTime);
 	}
 }
